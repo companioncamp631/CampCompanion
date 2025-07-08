@@ -1,0 +1,182 @@
+[
+    {
+        "id": "animal_tracks_01",
+        "category": "Animal Tracks",
+        "name": "Wolf Track (Canine)",
+        "iconName": "icon_wolf_track",
+        "shortDescription": "How to distinguish a wolf track from a dog's by its shape and gait.",
+        "longDescription": "Wolf tracks are typically more elongated and narrow than a domestic dog's. The four toes are tightly grouped, and the two middle toes are noticeably forward. Claw marks are almost always visible. Wolves often walk in a direct line, creating a single file track pattern.",
+        "imagePrompt": "A stylized imprint of a wolf paw in mud, on a white background with a bright yellow accent line tracing its outline."
+    },
+    {
+        "id": "animal_tracks_02",
+        "category": "Animal Tracks",
+        "name": "Deer Track (Hoofed)",
+        "iconName": "icon_deer_track",
+        "shortDescription": "Recognizing a deer track by its distinct two-toed hoof shape.",
+        "longDescription": "A deer track is shaped like an inverted heart or two crescents. The size of the track depends on the age and species of the deer. The pointed ends of the hooves indicate the animal's direction of travel.",
+        "imagePrompt": "Two deer hoof imprints, resembling a heart, on a white background. One of the imprints is highlighted with a yellow outline."
+    },
+    {
+        "id": "animal_tracks_03",
+        "category": "Animal Tracks",
+        "name": "Bear Track",
+        "iconName": "icon_bear_track",
+        "shortDescription": "Large tracks with five toes and long, non-retractable claw marks.",
+        "longDescription": "A bear track resembles a human's bare foot print but with five toes and clear claw marks set well ahead of the toes. The hind foot leaves a longer print due to the heel.",
+        "imagePrompt": "A large bear paw print with five toes on a white background, with a yellow accent on one of the claw marks."
+    },
+    {
+        "id": "animal_tracks_04",
+        "category": "Animal Tracks",
+        "name": "Rabbit Track",
+        "iconName": "icon_rabbit_track",
+        "shortDescription": "A characteristic group of four tracks forming a 'Y' shape.",
+        "longDescription": "When hopping, a rabbit lands with its front feet first, then brings its larger hind feet forward, placing them ahead of the front feet. This results in a pattern of two small prints behind two larger prints.",
+        "imagePrompt": "A group of four rabbit tracks in snow, drawn on a white background. A yellow arrow indicates the direction of travel."
+    },
+    {
+        "id": "animal_tracks_05",
+        "category": "Animal Tracks",
+        "name": "Fox Track",
+        "iconName": "icon_fox_track",
+        "shortDescription": "Neat and direct tracks, similar to a dog's but smaller and more oval.",
+        "longDescription": "Fox tracks are very precise, often forming a straight line as if walking on a rope. The prints are smaller and more oval-shaped than a wolf's. You can mentally draw an 'X' shape through the pads.",
+        "imagePrompt": "A clean chain of fox tracks on a white background, with an abstract yellow line following the direct path of movement."
+    },
+    {
+        "id": "animal_tracks_06",
+        "category": "Animal Tracks",
+        "name": "Wild Boar Track",
+        "iconName": "icon_boar_track",
+        "shortDescription": "Tracks similar to deer, but blunter and often showing two dewclaws.",
+        "longDescription": "A wild boar's track consists of two main hooves that are more rounded and splayed than a deer's. Behind and to the sides of the main track, you can often see the imprints of two smaller dewclaws.",
+        "imagePrompt": "A wild boar hoof print on a white background. The two dewclaw marks are highlighted in yellow."
+    },
+    {
+        "id": "animal_tracks_07",
+        "category": "Animal Tracks",
+        "name": "Raccoon Track",
+        "iconName": "icon_raccoon_track",
+        "shortDescription": "Unique tracks that resemble tiny human hands.",
+        "longDescription": "Raccoon tracks are unmistakable. Their front paws leave prints that look like miniature human hands with five long, slender fingers. The hind feet are longer due to the heel. Often found near water sources.",
+        "imagePrompt": "A front paw print of a raccoon, resembling a hand, on a white background. A bright yellow accent highlights one of the fingers."
+    },
+    {
+        "id": "animal_tracks_08",
+        "category": "Animal Tracks",
+        "name": "Feline Track (Lynx, Bobcat)",
+        "iconName": "icon_feline_track",
+        "shortDescription": "Round cat-like tracks with no claw marks.",
+        "longDescription": "Like all felines, they have retractable claws, so claw marks are absent from the track (unlike canines). The track is asymmetrical and round, with four toes. The main pad has three lobes at the rear.",
+        "imagePrompt": "A round feline paw print without claws on a white background. A yellow semi-circle accents the three-lobed rear pad."
+    },
+    {
+        "id": "animal_tracks_09",
+        "category": "Animal Tracks",
+        "name": "Squirrel Track",
+        "iconName": "icon_squirrel_track",
+        "shortDescription": "Small paired tracks, often leading to and from trees.",
+        "longDescription": "A squirrel lands with its smaller front paws side-by-side, while the larger hind paws land wider and ahead. This creates a boxy group of four prints. Front paws have four toes, hind paws have five.",
+        "imagePrompt": "A stylized group of four squirrel tracks on a white background, with a yellow acorn placed nearby."
+    },
+    {
+        "id": "animal_tracks_10",
+        "category": "Animal Tracks",
+        "name": "Bird Track (Perching)",
+        "iconName": "icon_bird_track",
+        "shortDescription": "Classic tracks with three toes forward and one toe back.",
+        "longDescription": "Most perching birds leave a track with three slender toes pointing forward and one toe (the hallux) pointing backward. Waterfowl like ducks will show webbing between the front three toes.",
+        "imagePrompt": "A simple bird footprint on a white background. A yellow accent dot marks where the main joint would be."
+    },
+    {
+        "id": "terrain_types_01",
+        "category": "Terrain Types",
+        "name": "Coniferous Forest",
+        "iconName": "icon_coniferous_forest",
+        "shortDescription": "Features of navigation and survival in a forest dominated by pines and firs.",
+        "longDescription": "Coniferous forests provide year-round cover. The soil is acidic, and the undergrowth is often sparse. The ground is typically covered with a layer of needles, making tracks less visible. A good source of dry wood and resin for fire-starting.",
+        "imagePrompt": "A minimalist illustration of a pine tree on a white background, with an accent yellow sun peeking through the branches."
+    },
+    {
+        "id": "terrain_types_02",
+        "category": "Terrain Types",
+        "name": "Deciduous Forest",
+        "iconName": "icon_deciduous_forest",
+        "shortDescription": "Seasonal forests with rich undergrowth and broadleaf trees.",
+        "longDescription": "These forests provide dense shade in summer and become clear in winter. Fallen leaves create a thick layer that can hide uneven ground and serve as shelter material. The soil is more fertile and rich in wildlife.",
+        "imagePrompt": "A stylized oak leaf on a white background. A bright yellow line illustrates the veins of the leaf."
+    },
+    {
+        "id": "terrain_types_03",
+        "category": "Terrain Types",
+        "name": "Marsh / Swamp",
+        "iconName": "icon_marsh",
+        "shortDescription": "A dangerous but resource-rich area with high humidity and saturated ground.",
+        "longDescription": "Marshes are characterized by standing water, soft ground, and specific vegetation like reeds and cattails. Travel is difficult and can be hazardous. However, they are often rich in waterfowl and edible plants.",
+        "imagePrompt": "An illustration of several cattail reeds on a white background, with a yellow accent on the water's surface reflection."
+    },
+    {
+        "id": "terrain_types_04",
+        "category": "Terrain Types",
+        "name": "Mountainous Terrain",
+        "iconName": "icon_mountains",
+        "shortDescription": "High-altitude environments with steep slopes, ridges, and valleys.",
+        "longDescription": "Mountains offer excellent vantage points for navigation but present dangers like rockfalls and sudden weather changes. Ridges and valleys are key navigational features. Travel is slow and requires significant energy.",
+        "imagePrompt": "A simple outline of a mountain range on a white background. The highest peak is tipped with a sharp yellow accent."
+    },
+    {
+        "id": "terrain_types_05",
+        "category": "Terrain Types",
+        "name": "Desert (Arid)",
+        "iconName": "icon_desert",
+        "shortDescription": "A dry, barren landscape with extreme temperatures and scarce water.",
+        "longDescription": "Survival in the desert revolves around finding shade and conserving water. Navigation can be difficult due to lack of landmarks. Travel during the cooler parts of the day, such as early morning or evening.",
+        "imagePrompt": "A stylized sand dune on a white background. A single, bright yellow sun hangs in the sky above it."
+    },
+    {
+        "id": "terrain_types_06",
+        "category": "Terrain Types",
+        "name": "Grassland / Prairie",
+        "iconName": "icon_grassland",
+        "shortDescription": "Open, rolling plains covered in grasses with few trees.",
+        "longDescription": "Grasslands offer long lines of sight, which is good for navigation but bad for concealment. Water is often found in low-lying areas or where sparse trees grow. Wind can be a significant factor.",
+        "imagePrompt": "A few blades of tall grass on a white background. One of the blades is colored a vibrant yellow."
+    },
+    {
+        "id": "terrain_types_07",
+        "category": "Terrain Types",
+        "name": "River Valley",
+        "iconName": "icon_river_valley",
+        "shortDescription": "A low-lying area with a river or stream, acting as a natural navigational corridor.",
+        "longDescription": "River valleys are natural travel routes. Following a river downstream often leads to civilization. They provide access to water, but be aware of flash flood risks. The surrounding slopes can offer shelter and vantage points.",
+        "imagePrompt": "A minimalist depiction of a river winding through a valley on a white background. The river itself is a bright, flowing yellow line."
+    },
+    {
+        "id": "terrain_types_08",
+        "category": "Terrain Types",
+        "name": "Rocky Coastline",
+        "iconName": "icon_coastline",
+        "shortDescription": "The interface between land and sea, offering marine resources but posing tidal dangers.",
+        "longDescription": "Coastlines provide abundant resources like shellfish and seaweed. Navigation is straightforward by following the coast. However, be mindful of the tides, which can cut off routes and create hazards.",
+        "imagePrompt": "A simple outline of a coastal cliff meeting the sea, on a white background. A yellow accent marks the spray of a wave."
+    },
+    {
+        "id": "terrain_types_09",
+        "category": "Terrain Types",
+        "name": "Tundra",
+        "iconName": "icon_tundra",
+        "shortDescription": "A vast, treeless plain with permafrost, found in arctic or high-altitude regions.",
+        "longDescription": "Tundra is characterized by low-growing vegetation like mosses, shrubs, and lichens. The ground is permanently frozen (permafrost) beneath the surface layer. Lack of trees makes finding firewood and shelter difficult.",
+        "imagePrompt": "A patch of lichen on a rock, drawn on a white background. Parts of the lichen have a bright yellow accent color."
+    },
+    {
+        "id": "terrain_types_10",
+        "category": "Terrain Types",
+        "name": "Plateau / Mesa",
+        "iconName": "icon_plateau",
+        "shortDescription": "A large, flat-topped area of high ground with steep sides.",
+        "longDescription": "Plateaus offer a high, flat area for travel and good visibility. However, ascending or descending the steep cliffs (escarpments) can be extremely difficult and dangerous. Water is often scarce on top.",
+        "imagePrompt": "A stylized mesa with a flat top and steep sides, on a white background. The flat top surface is highlighted in a solid yellow color."
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "survival_01",
+        "category": "Survival",
+        "name": "Making Fire Without Matches",
+        "iconName": "icon_fire_friction",
+        "shortDescription": "Learn the basic steps to ignite tinder using friction techniques like hand drill or bow drill.",
+        "longDescription": "Creating fire is a critical survival skill. The bow drill method uses a bow to rapidly spin a spindle on a fireboard. This friction creates hot dust, which can be coaxed into an ember. Transfer the ember to a tinder bundle (dry grass, bark shavings) and gently blow it into a flame."
+    },
+    {
+        "id": "survival_02",
+        "category": "Survival",
+        "name": "Tying Essential Knots",
+        "iconName": "icon_knot",
+        "shortDescription": "Simple instructions for tying key knots useful for shelter building, securing gear, etc.",
+        "longDescription": "The Bowline knot creates a fixed loop at the end of a rope, perfect for rescue or securing items. The Clove Hitch is excellent for quickly tying a rope to a post or tree. Practice these until you can tie them in the dark or with one hand."
+    },
+    {
+        "id": "survival_03",
+        "category": "Survival",
+        "name": "Building a Simple Shelter",
+        "iconName": "icon_lean_to_shelter",
+        "shortDescription": "How to quickly construct a basic lean-to shelter using natural materials for protection from elements.",
+        "longDescription": "Find a sturdy, low-hanging branch or place a long, strong branch against a tree. Lean smaller branches against one side of the main ridgepole. Cover this framework with leaves, pine boughs, or bark to create a waterproof wall that shields you from wind and rain."
+    },
+    {
+        "id": "survival_04",
+        "category": "Survival",
+        "name": "Signaling for Help",
+        "iconName": "icon_signal_mirror",
+        "shortDescription": "Methods for creating visible signals using a mirror or smoke to attract attention.",
+        "longDescription": "To use a signal mirror, aim the reflected sunlight towards a target like a plane or ship. For smoke signals, create a smoky fire with green leaves on a high point. Use a wet blanket to create puffs of smoke; three puffs is a universal distress signal."
+    },
+    {
+        "id": "survival_05",
+        "category": "Survival",
+        "name": "Basic First Aid",
+        "iconName": "icon_first_aid_cross",
+        "shortDescription": "Simple steps for cleaning a minor wound in the wilderness to prevent infection.",
+        "longDescription": "First, stop any bleeding by applying direct pressure with a clean cloth. Then, gently rinse the wound with purified water to remove dirt and debris. If available, apply an antiseptic and cover with a sterile bandage to keep it clean."
+    },
+    {
+        "id": "medicine_01",
+        "category": "Medicine",
+        "name": "Treating Blisters",
+        "iconName": "icon_blister_care",
+        "shortDescription": "How to properly cover and protect blisters to prevent them from worsening during travel/activity.",
+        "longDescription": "Avoid popping a blister unless it is large and painful. Clean the area, then apply a special blister bandage or a 'donut' cut from moleskin to relieve pressure. This protects it from friction and helps prevent infection."
+    },
+    {
+        "id": "medicine_02",
+        "category": "Medicine",
+        "name": "Recognizing Dehydration",
+        "iconName": "icon_dehydration",
+        "shortDescription": "Key signs and symptoms of dehydration and the importance of rehydrating.",
+        "longDescription": "Key signs include dark yellow urine, dry mouth, fatigue, and headache. In severe cases, it can cause dizziness and confusion. It's crucial to drink water regularly, even before you feel thirsty, to maintain hydration."
+    },
+    {
+        "id": "medicine_03",
+        "category": "Medicine",
+        "name": "Basic Bandaging",
+        "iconName": "icon_bandage_roll",
+        "shortDescription": "Simple technique for applying a bandage to a limb to control bleeding or support.",
+        "longDescription": "To apply a pressure bandage, place a sterile pad over the wound and wrap it firmly with a rolled bandage, starting away from the heart and wrapping towards it. Ensure it's tight enough to control bleeding but not so tight that it cuts off circulation."
+    },
+    {
+        "id": "medicine_04",
+        "category": "Medicine",
+        "name": "Splinting a Minor Injury",
+        "iconName": "icon_splint_finger",
+        "shortDescription": "How to create a simple splint for a minor finger or toe injury using small sticks or materials.",
+        "longDescription": "Find a rigid object like a small stick or a folded piece of cardboard. Place it alongside the injured digit and gently tape or wrap it in place. The splint should immobilize the joints above and below the injury to prevent further damage."
+    },
+    {
+        "id": "medicine_05",
+        "category": "Medicine",
+        "name": "Dealing with Insect Bites/Stings",
+        "iconName": "icon_insect_bite",
+        "shortDescription": "Basic steps for cleaning and treating common insect bites or stings.",
+        "longDescription": "First, remove the stinger if it's still in the skin by scraping it with a flat edge. Wash the area with soap and water. Apply a cold compress to reduce swelling and pain. Avoid scratching, as this can lead to infection."
+    },
+    {
+        "id": "orientation_01",
+        "category": "Orientation",
+        "name": "Using a Compass",
+        "iconName": "icon_compass",
+        "shortDescription": "Basic instructions on how to hold and read a compass to determine cardinal directions.",
+        "longDescription": "Hold the compass flat and level in your palm. The red magnetic needle will point towards magnetic North. Rotate the compass housing so the 'N' aligns with the needle. Now you can accurately read all other directions (East, South, West)."
+    },
+    {
+        "id": "orientation_02",
+        "category": "Orientation",
+        "name": "Navigating by the Sun",
+        "iconName": "icon_sun_nav",
+        "shortDescription": "How to use the position of the sun in the sky to get a general sense of direction during the day.",
+        "longDescription": "In the Northern Hemisphere, the sun rises in the east, is generally south at midday, and sets in the west. You can use an analog watch to find south: point the hour hand at the sun, and the point halfway between the hour hand and 12 is south."
+    },
+    {
+        "id": "orientation_03",
+        "category": "Orientation",
+        "name": "Finding Direction by Stars",
+        "iconName": "icon_southern_cross",
+        "shortDescription": "Using prominent constellations like the Southern Cross in the Southern Hemisphere to find South at night.",
+        "longDescription": "In the Southern Hemisphere, locate the Southern Cross. Imagine a line extending from the long axis of the cross, about 4.5 times its length. From the end of that imaginary line, drop a vertical line to the horizon. This point is roughly true South."
+    },
+    {
+        "id": "orientation_04",
+        "category": "Orientation",
+        "name": "Natural Landmarks",
+        "iconName": "icon_river_valley",
+        "shortDescription": "How to use natural features like rivers or valleys as navigational aids.",
+        "longDescription": "Water always flows downhill and often leads to larger bodies of water and, eventually, civilization. Following a stream or river downstream is a reliable navigation strategy when lost. Ridges and valleys also provide clear lines of travel."
+    },
+    {
+        "id": "orientation_05",
+        "category": "Orientation",
+        "name": "Marking Your Trail",
+        "iconName": "icon_trail_marker",
+        "shortDescription": "Simple methods for leaving markers (like stacked stones or broken branches) to find your way back or indicate your path.",
+        "longDescription": "To avoid getting lost, create trail markers. This can be done by stacking three rocks (cairns), breaking small branches to point in your direction of travel, or creating arrows on the ground with sticks. Make them unnatural enough to be easily recognizable."
+    },
+    {
+        "id": "shelter_water_01",
+        "category": "Shelter",
+        "name": "Finding a Suitable Shelter Location",
+        "iconName": "icon_shelter_location",
+        "shortDescription": "What to look for when choosing a spot to build or find natural shelter (protection from wind, water, hazards).",
+        "longDescription": "Choose a location that is dry, flat, and protected from wind. Avoid low-lying areas that could flood and the bases of cliffs with loose rocks. Look for a spot near resources like water and firewood, but not so close as to attract animals or be in a flash flood zone."
+    },
+    {
+        "id": "shelter_water_02",
+        "category": "Shelter",
+        "name": "Collecting Rainwater",
+        "iconName": "icon_rain_collection",
+        "shortDescription": "Simple techniques for collecting rainwater using tarps or containers.",
+        "longDescription": "Use a tarp, poncho, or large leaves to create a funnel that directs rainwater into a container. You can also tie a cloth around a tree trunk to collect the water that runs down the bark during a storm. Rainwater is generally safe to drink without purification."
+    },
+    {
+        "id": "shelter_water_03",
+        "category": "Shelter",
+        "name": "Finding Water Sources",
+        "iconName": "icon_animal_tracks_water",
+        "shortDescription": "How to identify potential water sources by observing animal behavior or terrain features.",
+        "longDescription": "Look for lush green vegetation, which indicates moisture. Follow animal tracks, especially downhill, as they often lead to water. Converging game trails are a strong sign of a nearby water source. Listen for frogs and insects, which also live near water."
+    },
+    {
+        "id": "shelter_water_04",
+        "category": "Shelter",
+        "name": "Purifying Water",
+        "iconName": "icon_boiling_water",
+        "shortDescription": "The most effective method for purifying suspect water by boiling it.",
+        "longDescription": "Boiling is the safest way to kill pathogens like bacteria, viruses, and protozoa. Bring water to a rolling boil and maintain it for at least one full minute. At high altitudes (above 2,000m or 6,500ft), boil for three minutes."
+    },
+    {
+        "id": "shelter_water_05",
+        "category": "Shelter",
+        "name": "Building a Debris Hut Shelter",
+        "iconName": "icon_debris_hut",
+        "shortDescription": "Steps for constructing a simple, insulated shelter using a large pile of natural debris like leaves and branches.",
+        "longDescription": "Start with a sturdy ridgepole propped against a tree or stump. Create a ribbed framework of smaller branches along both sides. Then, pile on a thick layer of dry debris like leaves and pine needles, at least a foot thick, for insulation. Crawl inside and block the entrance."
+    }
+]
