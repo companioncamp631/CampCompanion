@@ -132,10 +132,10 @@ struct MotionCompassView: View {
         ZStack {
             Circle().fill(Color(UIColor.systemGray5))
             Circle().stroke(Color.gray, lineWidth: 2)
-            Text("С").position(x: 150, y: 30).font(.title.weight(.bold))
-            Text("Ю").position(x: 150, y: 270).font(.title.weight(.bold))
-            Text("В").position(x: 270, y: 150).font(.title.weight(.bold))
-            Text("З").position(x: 30, y: 150).font(.title.weight(.bold))
+            Text("N").position(x: 150, y: 30).font(.title.weight(.bold))
+            Text("S").position(x: 150, y: 270).font(.title.weight(.bold))
+            Text("W").position(x: 270, y: 150).font(.title.weight(.bold))
+            Text("E").position(x: 30, y: 150).font(.title.weight(.bold))
             ForEach(0..<36) { i in
                 let angle = Double(i) * 10.0
                 let isMajorTick = i % 3 == 0
