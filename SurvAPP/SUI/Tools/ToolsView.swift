@@ -63,7 +63,7 @@ struct ToolsView: View {
                                         .scaledToFill()
                                         .frame(width: 60, height: 60)
                                 }
-                                Text("Red Signal Light")
+                                Text("Red Signal \nLight")
                                     .foregroundStyle(.white)
                                     .font(.custom("PaytoneOne-Regular", size: 24))
                             }

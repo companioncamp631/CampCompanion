@@ -1,0 +1,15 @@
+{
+  "originHash" : "c3d25accb05db2dbcb91cc49079130df6cb945ff85e502cbf729e5c23448a832",
+  "pins" : [
+    {
+      "identity" : "flagsmith-ios-client",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Flagsmith/flagsmith-ios-client.git",
+      "state" : {
+        "revision" : "56e62da513032f58aa85fd57a5eccd0288a0fd9e",
+        "version" : "3.8.1"
+      }
+    }
+  ],
+  "version" : 3
+}

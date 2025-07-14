@@ -165,7 +165,11 @@ struct MainView: View {
         .onDisappear {
             viewModel.stopQuoteLoop()
         }
-       
+        .onAppear {
+            AppDelegate.orientationLock = .portrait
+            UIDevice.current.setValue(UIInterfaceOrientation.portrait.rawValue, forKey: "orientation")
+            UINavigationController.attemptRotationToDeviceOrientation()
+        }
     }
     
     

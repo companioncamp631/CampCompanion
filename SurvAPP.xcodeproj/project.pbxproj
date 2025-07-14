@@ -34,6 +34,7 @@
 		64C6D9282E1D4204008C8130 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D9272E1D4204008C8130 /* NotesViewModel.swift */; };
 		64C6D92A2E1D4214008C8130 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D9292E1D4214008C8130 /* NotesListView.swift */; };
 		64C6D92D2E1D47F0008C8130 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6D92C2E1D47F0008C8130 /* OnboardingPageView.swift */; };
+		64C6D9A92E2507A9008C8130 /* FlagsmithClient in Frameworks */ = {isa = PBXBuildFile; productRef = 64C6D9A82E2507A9008C8130 /* FlagsmithClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64C6D9A92E2507A9008C8130 /* FlagsmithClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +229,7 @@
 			);
 			name = SurvAPP;
 			packageProductDependencies = (
+				64C6D9A82E2507A9008C8130 /* FlagsmithClient */,
 			);
 			productName = SurvAPP;
 			productReference = 64C6D8882E1BC09A008C8130 /* SurvAPP.app */;
@@ -256,6 +259,9 @@
 			);
 			mainGroup = 64C6D87F2E1BC09A008C8130;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				64C6D9A72E2507A9008C8130 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64C6D8892E1BC09A008C8130 /* Products */;
 			projectDirPath = "";
@@ -344,17 +350,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SurvAPP/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Camp Companion";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs access to your camera so you can add photos to notes.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CampCompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -379,17 +386,18 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SurvAPP/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Camp Companion";
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs access to your camera so you can add photos to notes.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CampCompanion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -544,6 +552,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		64C6D9A72E2507A9008C8130 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flagsmith/flagsmith-ios-client.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		64C6D9A82E2507A9008C8130 /* FlagsmithClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64C6D9A72E2507A9008C8130 /* XCRemoteSwiftPackageReference "flagsmith-ios-client" */;
+			productName = FlagsmithClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 64C6D8802E1BC09A008C8130 /* Project object */;
 }
